@@ -42,8 +42,8 @@ spec:
   workspaces:
     - name: args
   params:
-    - name: {placeholder}
-      description: {placeholder}
+    - name: args
+      description: Arguments to pass to nose
       type: string
       default: "-v"
   steps:
